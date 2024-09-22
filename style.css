@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    border-bottom: 0.2px solid #fff;
+    position: fixed;
+}
+
+nav h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+nav button{
+    padding: 25px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: orange;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    transition: background-color ease 0.5s ;
+}
+
+nav button:hover{
+    background-color: #fff;
+}
+
+header{
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container p{
+    color: #fff;
+}
+
+header .container .first{
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header .container .first span{
+    color: orange;
+}
+
+
+header .container .second{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
+header .container .under-text{
+    margin-top: 50px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+section .list{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section .list a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: gray;
+}
